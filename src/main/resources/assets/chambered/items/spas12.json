@@ -1,0 +1,9 @@
+{
+	"model": {
+		"type": "minecraft:special",
+		"base": "chambered:item/gun/spas12/spas12_in_hand",
+		"model": {
+			"type": "geckolib:geckolib"
+		}
+	}
+}

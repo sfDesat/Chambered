@@ -1,0 +1,9 @@
+{
+	"model": {
+		"type": "minecraft:special",
+		"base": "chambered:item/gun/aks74u/aks74u_in_hand",
+		"model": {
+			"type": "geckolib:geckolib"
+		}
+	}
+}

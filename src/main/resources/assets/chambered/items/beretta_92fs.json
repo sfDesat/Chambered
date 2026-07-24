@@ -1,0 +1,9 @@
+{
+	"model": {
+		"type": "minecraft:special",
+		"base": "chambered:item/gun/beretta_92fs/beretta_92fs_in_hand",
+		"model": {
+			"type": "geckolib:geckolib"
+		}
+	}
+}

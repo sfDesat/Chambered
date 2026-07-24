@@ -1,0 +1,9 @@
+{
+	"display_name": "RPK-74 Magazine",
+	"capacity": 45,
+	"caliber": "chambered:545x39",
+	"default_ammo_type": "chambered:545x39_fmj",
+	"compatible_guns": [
+		"chambered:rpk74"
+	]
+}

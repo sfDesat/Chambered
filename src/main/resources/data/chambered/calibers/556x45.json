@@ -1,0 +1,6 @@
+{
+	"display_name": "5.56x45mm NATO",
+	"base_velocity": 13.0,
+	"gravity": 0.019,
+	"drag": 0.0075
+}

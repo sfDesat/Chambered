@@ -1,0 +1,9 @@
+{
+	"model": {
+		"type": "minecraft:special",
+		"base": "chambered:item/gun/hk_mp5/hk_mp5_in_hand",
+		"model": {
+			"type": "geckolib:geckolib"
+		}
+	}
+}

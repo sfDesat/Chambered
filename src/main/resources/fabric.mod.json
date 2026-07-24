@@ -1,0 +1,36 @@
+{
+	"schemaVersion": 1,
+	"id": "chambered",
+	"version": "${version}",
+	"name": "Chambered",
+	"description": "A realistic gun mod for Minecraft.",
+	"authors": [
+		"midas"
+	],
+	"contact": {},
+	"license": "CC0-1.0",
+	"icon": "assets/chambered/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.chambered.ChamberedMod"
+		],
+		"client": [
+			"com.chambered.client.ChamberedModClient"
+		]
+	},
+	"mixins": [
+		"chambered.mixins.json",
+		{
+			"config": "chambered.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*",
+		"geckolib": ">=5.5.3"
+	}
+}

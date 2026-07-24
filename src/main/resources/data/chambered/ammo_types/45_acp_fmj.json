@@ -1,0 +1,7 @@
+{
+	"caliber": "chambered:45_acp",
+	"display_name": ".45 ACP FMJ",
+	"damage": 7.5,
+	"velocity_multiplier": 1.0,
+	"drag_multiplier": 1.0
+}

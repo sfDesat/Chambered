@@ -1,0 +1,9 @@
+{
+	"model": {
+		"type": "minecraft:special",
+		"base": "chambered:item/gun/akm/akm_in_hand",
+		"model": {
+			"type": "geckolib:geckolib"
+		}
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"display_name": "TT-33 Magazine",
+	"capacity": 8,
+	"caliber": "chambered:762x25",
+	"default_ammo_type": "chambered:762x25_fmj",
+	"compatible_guns": [
+		"chambered:tokarev_tt33"
+	]
+}

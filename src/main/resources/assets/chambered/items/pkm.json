@@ -1,0 +1,9 @@
+{
+	"model": {
+		"type": "minecraft:special",
+		"base": "chambered:item/gun/pkm/pkm_in_hand",
+		"model": {
+			"type": "geckolib:geckolib"
+		}
+	}
+}

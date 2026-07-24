@@ -1,0 +1,56 @@
+{
+	"display_name": "Makarov PM",
+	"caliber": "chambered:9x18",
+	"accepted_magazines": [
+		"chambered:makarov_magazine"
+	],
+	"ballistics": {
+		"barrel_velocity_factor": 1.0,
+		"pellet_count": 1,
+		"max_bullet_lifetime_ticks": 80,
+		"max_bullet_range": 96
+	},
+	"fire_control": {
+		"fire_modes": [
+			"semi"
+		],
+		"rpm": 400,
+		"cycle_time_ticks": 2
+	},
+	"handling": {
+		"recoil_pitch": 1.0,
+		"recoil_yaw": 0.15,
+		"sway": 0.08,
+		"ergonomics": 75,
+		"ads_enter_time": 0.22,
+		"ads_exit_time": 0.18,
+		"weight": 0.73,
+		"hipfire_spread": 2.8,
+		"ads_spread": 0.4,
+		"draw_time": 0.32,
+		"holster_time": 0.22,
+		"recoil_recovery": 0.16,
+		"ads_fov_multiplier": 0.72,
+		"reload_time": 1.0
+	},
+	"sounds": {
+		"fire": "minecraft:entity.firework_rocket.blast",
+		"empty": "minecraft:ui.button.click",
+		"reload": "minecraft:block.iron_door.close",
+		"fire_mode": "minecraft:ui.button.click"
+	},
+	"visual": {
+		"slide_locked_z": 1.45,
+		"ads_offset_x": 0.38,
+		"ads_offset_y": 0.135,
+		"ads_offset_z": 0.2,
+		"ads_pitch_degrees": -4.8,
+		"inventory_scale": 1,
+		"inventory_pitch_degrees": 20,
+		"inventory_yaw_degrees": 80
+	},
+	"slots": [
+		"muzzle"
+	],
+	"jam_base": 0.0
+}

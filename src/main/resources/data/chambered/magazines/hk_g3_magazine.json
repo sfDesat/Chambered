@@ -1,0 +1,9 @@
+{
+	"display_name": "G3 Magazine",
+	"capacity": 20,
+	"caliber": "chambered:762x51",
+	"default_ammo_type": "chambered:762x51_fmj",
+	"compatible_guns": [
+		"chambered:hk_g3"
+	]
+}

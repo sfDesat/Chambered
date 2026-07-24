@@ -1,0 +1,9 @@
+{
+	"display_name": "M82 Magazine",
+	"capacity": 10,
+	"caliber": "chambered:50_bmg",
+	"default_ammo_type": "chambered:50_bmg_fmj",
+	"compatible_guns": [
+		"chambered:barrett_m82"
+	]
+}

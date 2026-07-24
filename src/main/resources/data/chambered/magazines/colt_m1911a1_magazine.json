@@ -1,0 +1,9 @@
+{
+	"display_name": "M1911 Magazine",
+	"capacity": 7,
+	"caliber": "chambered:45_acp",
+	"default_ammo_type": "chambered:45_acp_fmj",
+	"compatible_guns": [
+		"chambered:colt_m1911a1"
+	]
+}

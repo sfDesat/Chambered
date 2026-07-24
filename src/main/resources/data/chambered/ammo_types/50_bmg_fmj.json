@@ -1,0 +1,7 @@
+{
+	"caliber": "chambered:50_bmg",
+	"display_name": ".50 BMG FMJ",
+	"damage": 28.0,
+	"velocity_multiplier": 1.0,
+	"drag_multiplier": 1.0
+}

@@ -1,0 +1,9 @@
+{
+	"model": {
+		"type": "minecraft:special",
+		"base": "chambered:item/gun/remington_870/remington_870_in_hand",
+		"model": {
+			"type": "geckolib:geckolib"
+		}
+	}
+}

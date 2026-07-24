@@ -1,0 +1,7 @@
+{
+	"caliber": "chambered:762x39",
+	"display_name": "7.62x39mm FMJ",
+	"damage": 9.0,
+	"velocity_multiplier": 1.0,
+	"drag_multiplier": 1.0
+}

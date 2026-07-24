@@ -1,0 +1,9 @@
+{
+	"model": {
+		"type": "minecraft:special",
+		"base": "chambered:item/gun/uzi/uzi_in_hand",
+		"model": {
+			"type": "geckolib:geckolib"
+		}
+	}
+}

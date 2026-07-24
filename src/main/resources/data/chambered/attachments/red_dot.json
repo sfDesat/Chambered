@@ -1,0 +1,12 @@
+{
+	"display_name": "Red Dot Sight",
+	"slot": "optic",
+	"field_attachable": true,
+	"compatible_guns": [],
+	"modifiers": {
+		"ads_spread_mul": 0.75,
+		"ads_enter_time_mul": 1.05,
+		"weight_add": 0.12,
+		"ergonomics_add": -2
+	}
+}

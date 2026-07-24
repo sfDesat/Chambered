@@ -1,0 +1,9 @@
+{
+	"model": {
+		"type": "minecraft:special",
+		"base": "chambered:item/gun/izh43_sawn_off/izh43_sawn_off_in_hand",
+		"model": {
+			"type": "geckolib:geckolib"
+		}
+	}
+}

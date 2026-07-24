@@ -1,0 +1,9 @@
+{
+	"model": {
+		"type": "minecraft:special",
+		"base": "chambered:item/gun/fn_fal/fn_fal_in_hand",
+		"model": {
+			"type": "geckolib:geckolib"
+		}
+	}
+}

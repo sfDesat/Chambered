@@ -1,0 +1,10 @@
+{
+	"display_name": "Weapon Light",
+	"slot": "side",
+	"field_attachable": true,
+	"compatible_guns": [],
+	"modifiers": {
+		"weight_add": 0.08,
+		"ergonomics_add": -1
+	}
+}

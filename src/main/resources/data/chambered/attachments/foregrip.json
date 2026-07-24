@@ -1,0 +1,13 @@
+{
+	"display_name": "Foregrip",
+	"slot": "underbarrel",
+	"field_attachable": true,
+	"compatible_guns": [],
+	"modifiers": {
+		"recoil_pitch_mul": 0.88,
+		"recoil_yaw_mul": 0.9,
+		"sway_mul": 0.85,
+		"weight_add": 0.1,
+		"ergonomics_add": 6
+	}
+}

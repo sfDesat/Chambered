@@ -1,0 +1,9 @@
+{
+	"display_name": "Uzi Magazine",
+	"capacity": 32,
+	"caliber": "chambered:9x19",
+	"default_ammo_type": "chambered:9x19_fmj",
+	"compatible_guns": [
+		"chambered:uzi"
+	]
+}

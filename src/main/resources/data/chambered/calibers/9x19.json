@@ -1,0 +1,6 @@
+{
+	"display_name": "9x19mm Parabellum",
+	"base_velocity": 9.0,
+	"gravity": 0.024,
+	"drag": 0.01
+}

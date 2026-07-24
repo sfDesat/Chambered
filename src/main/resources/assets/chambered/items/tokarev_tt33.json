@@ -1,0 +1,9 @@
+{
+	"model": {
+		"type": "minecraft:special",
+		"base": "chambered:item/gun/tokarev_tt33/tokarev_tt33_in_hand",
+		"model": {
+			"type": "geckolib:geckolib"
+		}
+	}
+}

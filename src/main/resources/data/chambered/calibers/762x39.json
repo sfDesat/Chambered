@@ -1,0 +1,6 @@
+{
+	"display_name": "7.62x39mm",
+	"base_velocity": 11.5,
+	"gravity": 0.021,
+	"drag": 0.0085
+}

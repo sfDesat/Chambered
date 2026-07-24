@@ -1,0 +1,6 @@
+{
+	"display_name": "7.62x25mm Tokarev",
+	"base_velocity": 9.5,
+	"gravity": 0.024,
+	"drag": 0.009
+}

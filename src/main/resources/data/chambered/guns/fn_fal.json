@@ -1,0 +1,60 @@
+{
+	"display_name": "FN FAL",
+	"caliber": "chambered:762x51",
+	"accepted_magazines": [
+		"chambered:fn_fal_magazine"
+	],
+	"ballistics": {
+		"barrel_velocity_factor": 1.15,
+		"pellet_count": 1,
+		"max_bullet_lifetime_ticks": 100,
+		"max_bullet_range": 160
+	},
+	"fire_control": {
+		"fire_modes": [
+			"semi",
+			"auto"
+		],
+		"rpm": 600,
+		"cycle_time_ticks": 2
+	},
+	"handling": {
+		"recoil_pitch": 1.35,
+		"recoil_yaw": 0.28,
+		"sway": 0.12,
+		"ergonomics": 55,
+		"ads_enter_time": 0.32,
+		"ads_exit_time": 0.26,
+		"weight": 3.5,
+		"hipfire_spread": 3.8,
+		"ads_spread": 0.35,
+		"draw_time": 0.55,
+		"holster_time": 0.4,
+		"recoil_recovery": 0.12,
+		"ads_fov_multiplier": 0.65,
+		"reload_time": 1.6
+	},
+	"sounds": {
+		"fire": "minecraft:entity.firework_rocket.blast",
+		"empty": "minecraft:ui.button.click",
+		"reload": "minecraft:block.iron_door.close",
+		"fire_mode": "minecraft:ui.button.click"
+	},
+	"visual": {
+		"slide_locked_z": 1.45,
+		"ads_offset_x": 0.38,
+		"ads_offset_y": 0.135,
+		"ads_offset_z": 0.2,
+		"ads_pitch_degrees": -4.8,
+		"inventory_scale": 1,
+		"inventory_pitch_degrees": 20,
+		"inventory_yaw_degrees": 80
+	},
+	"slots": [
+		"muzzle",
+		"optic",
+		"underbarrel",
+		"side"
+	],
+	"jam_base": 0.0
+}

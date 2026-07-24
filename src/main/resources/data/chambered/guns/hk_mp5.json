@@ -1,0 +1,61 @@
+{
+	"display_name": "Heckler & Koch MP5",
+	"caliber": "chambered:9x19",
+	"accepted_magazines": [
+		"chambered:hk_mp5_magazine"
+	],
+	"ballistics": {
+		"barrel_velocity_factor": 1.0,
+		"pellet_count": 1,
+		"max_bullet_lifetime_ticks": 80,
+		"max_bullet_range": 110
+	},
+	"fire_control": {
+		"fire_modes": [
+			"semi",
+			"auto"
+		],
+		"rpm": 700,
+		"cycle_time_ticks": 2
+	},
+	"handling": {
+		"recoil_pitch": 0.85,
+		"recoil_yaw": 0.22,
+		"sway": 0.1,
+		"ergonomics": 70,
+		"ads_enter_time": 0.25,
+		"ads_exit_time": 0.2,
+		"weight": 2.5,
+		"hipfire_spread": 3.2,
+		"ads_spread": 0.55,
+		"draw_time": 0.4,
+		"holster_time": 0.28,
+		"recoil_recovery": 0.14,
+		"ads_fov_multiplier": 0.7,
+		"reload_time": 1.35
+	},
+	"sounds": {
+		"fire": "minecraft:entity.firework_rocket.blast",
+		"empty": "minecraft:ui.button.click",
+		"reload": "minecraft:block.iron_door.close",
+		"fire_mode": "minecraft:ui.button.click"
+	},
+	"visual": {
+		"slide_locked_z": 1.45,
+		"ads_offset_x": 0.38,
+		"ads_offset_y": 0.135,
+		"ads_offset_z": 0.2,
+		"ads_pitch_degrees": -4.8,
+		"inventory_scale": 1,
+		"inventory_pitch_degrees": 20,
+		"inventory_yaw_degrees": 80
+	},
+	"slots": [
+		"muzzle",
+		"optic",
+		"underbarrel",
+		"stock",
+		"side"
+	],
+	"jam_base": 0.0
+}

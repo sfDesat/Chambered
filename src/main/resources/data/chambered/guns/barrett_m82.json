@@ -1,0 +1,59 @@
+{
+	"display_name": "Barrett M82",
+	"caliber": "chambered:50_bmg",
+	"accepted_magazines": [
+		"chambered:barrett_m82_magazine"
+	],
+	"ballistics": {
+		"barrel_velocity_factor": 1.5,
+		"pellet_count": 1,
+		"max_bullet_lifetime_ticks": 140,
+		"max_bullet_range": 280
+	},
+	"fire_control": {
+		"fire_modes": [
+			"semi"
+		],
+		"rpm": 40,
+		"cycle_time_ticks": 4
+	},
+	"handling": {
+		"recoil_pitch": 4.5,
+		"recoil_yaw": 0.35,
+		"sway": 0.14,
+		"ergonomics": 40,
+		"ads_enter_time": 0.45,
+		"ads_exit_time": 0.35,
+		"weight": 14.0,
+		"hipfire_spread": 5.0,
+		"ads_spread": 0.12,
+		"draw_time": 0.7,
+		"holster_time": 0.5,
+		"recoil_recovery": 0.08,
+		"ads_fov_multiplier": 0.5,
+		"reload_time": 2.0
+	},
+	"sounds": {
+		"fire": "minecraft:entity.firework_rocket.blast",
+		"empty": "minecraft:ui.button.click",
+		"reload": "minecraft:block.iron_door.close",
+		"fire_mode": "minecraft:ui.button.click"
+	},
+	"visual": {
+		"slide_locked_z": 1.45,
+		"ads_offset_x": 0.38,
+		"ads_offset_y": 0.135,
+		"ads_offset_z": 0.2,
+		"ads_pitch_degrees": -4.8,
+		"inventory_scale": 1,
+		"inventory_pitch_degrees": 20,
+		"inventory_yaw_degrees": 80
+	},
+	"slots": [
+		"muzzle",
+		"optic",
+		"underbarrel",
+		"side"
+	],
+	"jam_base": 0.0
+}

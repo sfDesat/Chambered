@@ -1,0 +1,9 @@
+{
+	"display_name": "RPK Magazine",
+	"capacity": 40,
+	"caliber": "chambered:762x39",
+	"default_ammo_type": "chambered:762x39_fmj",
+	"compatible_guns": [
+		"chambered:rpk"
+	]
+}

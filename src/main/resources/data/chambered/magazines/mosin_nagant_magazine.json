@@ -1,0 +1,9 @@
+{
+	"display_name": "Mosin Clip",
+	"capacity": 5,
+	"caliber": "chambered:762x54r",
+	"default_ammo_type": "chambered:762x54r_fmj",
+	"compatible_guns": [
+		"chambered:mosin_nagant"
+	]
+}

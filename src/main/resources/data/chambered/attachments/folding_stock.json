@@ -1,0 +1,13 @@
+{
+	"display_name": "Folding Stock",
+	"slot": "stock",
+	"field_attachable": true,
+	"compatible_guns": [],
+	"modifiers": {
+		"recoil_pitch_mul": 0.8,
+		"sway_mul": 0.7,
+		"weight_add": 0.35,
+		"ads_enter_time_mul": 1.1,
+		"ergonomics_add": 4
+	}
+}

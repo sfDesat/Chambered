@@ -1,0 +1,9 @@
+{
+	"display_name": "SVD Magazine",
+	"capacity": 10,
+	"caliber": "chambered:762x54r",
+	"default_ammo_type": "chambered:762x54r_fmj",
+	"compatible_guns": [
+		"chambered:svd"
+	]
+}

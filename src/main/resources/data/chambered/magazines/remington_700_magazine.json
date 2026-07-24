@@ -1,0 +1,9 @@
+{
+	"display_name": "M24 Magazine",
+	"capacity": 5,
+	"caliber": "chambered:762x51",
+	"default_ammo_type": "chambered:762x51_fmj",
+	"compatible_guns": [
+		"chambered:remington_700"
+	]
+}

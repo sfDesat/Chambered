@@ -1,0 +1,9 @@
+{
+	"display_name": "VSS Magazine",
+	"capacity": 10,
+	"caliber": "chambered:9x39",
+	"default_ammo_type": "chambered:9x39_fmj",
+	"compatible_guns": [
+		"chambered:vss_vintorez"
+	]
+}

@@ -1,0 +1,7 @@
+{
+	"caliber": "chambered:9x39",
+	"display_name": "9x39mm FMJ",
+	"damage": 9.5,
+	"velocity_multiplier": 1.0,
+	"drag_multiplier": 1.0
+}

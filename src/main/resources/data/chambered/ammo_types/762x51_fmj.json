@@ -1,0 +1,7 @@
+{
+	"caliber": "chambered:762x51",
+	"display_name": "7.62x51mm NATO FMJ",
+	"damage": 11.5,
+	"velocity_multiplier": 1.0,
+	"drag_multiplier": 1.0
+}

@@ -1,0 +1,61 @@
+{
+	"display_name": "Saiga-12",
+	"caliber": "chambered:12_gauge",
+	"accepted_magazines": [
+		"chambered:saiga12_magazine"
+	],
+	"ballistics": {
+		"barrel_velocity_factor": 0.85,
+		"pellet_count": 8,
+		"max_bullet_lifetime_ticks": 50,
+		"max_bullet_range": 48
+	},
+	"fire_control": {
+		"fire_modes": [
+			"semi",
+			"auto"
+		],
+		"rpm": 300,
+		"cycle_time_ticks": 6
+	},
+	"handling": {
+		"recoil_pitch": 3.0,
+		"recoil_yaw": 0.5,
+		"sway": 0.16,
+		"ergonomics": 50,
+		"ads_enter_time": 0.3,
+		"ads_exit_time": 0.25,
+		"weight": 3.2,
+		"hipfire_spread": 6.0,
+		"ads_spread": 1.2,
+		"draw_time": 0.5,
+		"holster_time": 0.35,
+		"recoil_recovery": 0.1,
+		"ads_fov_multiplier": 0.75,
+		"reload_time": 2.4
+	},
+	"sounds": {
+		"fire": "minecraft:entity.firework_rocket.blast",
+		"empty": "minecraft:ui.button.click",
+		"reload": "minecraft:block.iron_door.close",
+		"fire_mode": "minecraft:ui.button.click"
+	},
+	"visual": {
+		"slide_locked_z": 1.45,
+		"ads_offset_x": 0.38,
+		"ads_offset_y": 0.135,
+		"ads_offset_z": 0.2,
+		"ads_pitch_degrees": -4.8,
+		"inventory_scale": 1,
+		"inventory_pitch_degrees": 20,
+		"inventory_yaw_degrees": 80
+	},
+	"slots": [
+		"muzzle",
+		"optic",
+		"underbarrel",
+		"stock",
+		"side"
+	],
+	"jam_base": 0.0
+}

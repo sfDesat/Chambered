@@ -1,0 +1,9 @@
+{
+	"model": {
+		"type": "minecraft:special",
+		"base": "chambered:item/gun/vss_vintorez/vss_vintorez_in_hand",
+		"model": {
+			"type": "geckolib:geckolib"
+		}
+	}
+}

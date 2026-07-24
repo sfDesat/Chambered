@@ -1,0 +1,19 @@
+{
+	"display_name": "Pistol Suppressor",
+	"slot": "muzzle",
+	"field_attachable": true,
+	"compatible_guns": [
+		"chambered:makarov",
+		"chambered:stechkin_aps",
+		"chambered:beretta_92fs",
+		"chambered:sig_p226",
+		"chambered:colt_m1911a1"
+	],
+	"modifiers": {
+		"recoil_pitch_mul": 0.92,
+		"sway_mul": 1.08,
+		"weight_add": 0.18,
+		"barrel_velocity_mul": 0.97,
+		"ergonomics_add": -4
+	}
+}

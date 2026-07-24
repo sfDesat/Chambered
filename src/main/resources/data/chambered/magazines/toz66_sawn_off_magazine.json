@@ -1,0 +1,9 @@
+{
+	"display_name": "TOZ-66 Shells",
+	"capacity": 2,
+	"caliber": "chambered:12_gauge",
+	"default_ammo_type": "chambered:12_gauge_fmj",
+	"compatible_guns": [
+		"chambered:toz66_sawn_off"
+	]
+}

@@ -1,0 +1,9 @@
+{
+	"model": {
+		"type": "minecraft:special",
+		"base": "chambered:item/gun/m16a2/m16a2_in_hand",
+		"model": {
+			"type": "geckolib:geckolib"
+		}
+	}
+}

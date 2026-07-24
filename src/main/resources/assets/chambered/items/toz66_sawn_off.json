@@ -1,0 +1,9 @@
+{
+	"model": {
+		"type": "minecraft:special",
+		"base": "chambered:item/gun/toz66_sawn_off/toz66_sawn_off_in_hand",
+		"model": {
+			"type": "geckolib:geckolib"
+		}
+	}
+}

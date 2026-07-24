@@ -1,0 +1,9 @@
+{
+	"model": {
+		"type": "minecraft:special",
+		"base": "chambered:item/gun/pp19_bizon/pp19_bizon_in_hand",
+		"model": {
+			"type": "geckolib:geckolib"
+		}
+	}
+}

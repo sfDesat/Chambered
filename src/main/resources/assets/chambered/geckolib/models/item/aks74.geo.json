@@ -1,0 +1,173 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.chambered.aks74",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [
+					0,
+					0.5,
+					0
+				]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "gun",
+					"parent": "root",
+					"pivot": [
+						0,
+						2,
+						0
+					],
+					"cubes": [
+						{
+							"origin": [
+								-0.6,
+								1.4,
+								-4.0
+							],
+							"size": [
+								1.2,
+								1.2,
+								7.0
+							],
+							"uv": [
+								0,
+								0
+							]
+						}
+					]
+				},
+				{
+					"name": "slide",
+					"parent": "gun",
+					"pivot": [
+						0,
+						2.4,
+						0
+					],
+					"cubes": [
+						{
+							"origin": [
+								-0.55,
+								2.2,
+								-3.5
+							],
+							"size": [
+								1.1,
+								0.45,
+								5.0
+							],
+							"uv": [
+								0,
+								16
+							]
+						}
+					]
+				},
+				{
+					"name": "magazine",
+					"parent": "gun",
+					"pivot": [
+						0,
+						1.0,
+						0.5
+					],
+					"cubes": [
+						{
+							"origin": [
+								-0.4,
+								0.2,
+								0.0
+							],
+							"size": [
+								0.8,
+								1.4,
+								1.0
+							],
+							"uv": [
+								0,
+								32
+							]
+						}
+					]
+				},
+				{
+					"name": "attach_muzzle",
+					"parent": "gun",
+					"pivot": [
+						0,
+						2.0,
+						-4.0
+					]
+				},
+				{
+					"name": "attach_optic",
+					"parent": "gun",
+					"pivot": [
+						0,
+						2.8,
+						-0.5
+					]
+				},
+				{
+					"name": "attach_underbarrel",
+					"parent": "gun",
+					"pivot": [
+						0,
+						1.2,
+						-1.5
+					]
+				},
+				{
+					"name": "attach_stock",
+					"parent": "gun",
+					"pivot": [
+						0,
+						2.0,
+						3.0
+					]
+				},
+				{
+					"name": "attach_side",
+					"parent": "gun",
+					"pivot": [
+						0.7,
+						2.2,
+						0.0
+					]
+				},
+				{
+					"name": "right_arm",
+					"parent": "gun",
+					"pivot": [
+						0.5,
+						1.5,
+						1.0
+					]
+				},
+				{
+					"name": "left_arm",
+					"parent": "gun",
+					"pivot": [
+						-0.5,
+						1.5,
+						0.5
+					]
+				}
+			]
+		}
+	]
+}

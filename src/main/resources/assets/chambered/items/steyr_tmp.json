@@ -1,0 +1,9 @@
+{
+	"model": {
+		"type": "minecraft:special",
+		"base": "chambered:item/gun/steyr_tmp/steyr_tmp_in_hand",
+		"model": {
+			"type": "geckolib:geckolib"
+		}
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"display_name": "SKS Stripper / Mag",
+	"capacity": 10,
+	"caliber": "chambered:762x39",
+	"default_ammo_type": "chambered:762x39_fmj",
+	"compatible_guns": [
+		"chambered:sks"
+	]
+}

@@ -1,0 +1,9 @@
+{
+	"display_name": "AUG Magazine",
+	"capacity": 30,
+	"caliber": "chambered:556x45",
+	"default_ammo_type": "chambered:556x45_fmj",
+	"compatible_guns": [
+		"chambered:steyr_aug"
+	]
+}

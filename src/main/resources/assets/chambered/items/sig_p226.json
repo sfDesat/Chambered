@@ -1,0 +1,9 @@
+{
+	"model": {
+		"type": "minecraft:special",
+		"base": "chambered:item/gun/sig_p226/sig_p226_in_hand",
+		"model": {
+			"type": "geckolib:geckolib"
+		}
+	}
+}

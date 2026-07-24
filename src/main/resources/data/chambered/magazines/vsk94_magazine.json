@@ -1,0 +1,9 @@
+{
+	"display_name": "VSK-94 Magazine",
+	"capacity": 20,
+	"caliber": "chambered:9x39",
+	"default_ammo_type": "chambered:9x39_fmj",
+	"compatible_guns": [
+		"chambered:vsk94"
+	]
+}

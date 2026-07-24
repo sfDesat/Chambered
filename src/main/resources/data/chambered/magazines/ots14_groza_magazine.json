@@ -1,0 +1,9 @@
+{
+	"display_name": "Groza Magazine",
+	"capacity": 30,
+	"caliber": "chambered:545x39",
+	"default_ammo_type": "chambered:545x39_fmj",
+	"compatible_guns": [
+		"chambered:ots14_groza"
+	]
+}

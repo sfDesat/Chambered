@@ -1,0 +1,9 @@
+{
+	"model": {
+		"type": "minecraft:special",
+		"base": "chambered:item/gun/mosin_nagant/mosin_nagant_in_hand",
+		"model": {
+			"type": "geckolib:geckolib"
+		}
+	}
+}

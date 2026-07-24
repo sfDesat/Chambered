@@ -1,0 +1,7 @@
+{
+	"variants": {
+		"": {
+			"model": "chambered:block/gun_workbench"
+		}
+	}
+}

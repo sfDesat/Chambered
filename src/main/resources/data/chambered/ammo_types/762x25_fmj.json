@@ -1,0 +1,7 @@
+{
+	"caliber": "chambered:762x25",
+	"display_name": "7.62x25mm Tokarev FMJ",
+	"damage": 6.5,
+	"velocity_multiplier": 1.0,
+	"drag_multiplier": 1.0
+}

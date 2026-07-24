@@ -1,0 +1,6 @@
+{
+	"display_name": "9x18mm Makarov",
+	"base_velocity": 8.0,
+	"gravity": 0.025,
+	"drag": 0.01
+}

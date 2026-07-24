@@ -1,0 +1,7 @@
+{
+	"caliber": "chambered:9x19",
+	"display_name": "9x19mm Parabellum FMJ",
+	"damage": 6.5,
+	"velocity_multiplier": 1.0,
+	"drag_multiplier": 1.0
+}

@@ -1,0 +1,7 @@
+{
+	"caliber": "chambered:556x45",
+	"display_name": "5.56x45mm NATO FMJ",
+	"damage": 8.5,
+	"velocity_multiplier": 1.0,
+	"drag_multiplier": 1.0
+}

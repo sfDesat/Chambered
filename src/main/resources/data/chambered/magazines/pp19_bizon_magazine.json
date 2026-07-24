@@ -1,0 +1,9 @@
+{
+	"display_name": "Bizon Helical Magazine",
+	"capacity": 64,
+	"caliber": "chambered:9x18",
+	"default_ammo_type": "chambered:9x18_fmj",
+	"compatible_guns": [
+		"chambered:pp19_bizon"
+	]
+}

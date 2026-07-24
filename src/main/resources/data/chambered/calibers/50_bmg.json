@@ -1,0 +1,6 @@
+{
+	"display_name": ".50 BMG",
+	"base_velocity": 16.0,
+	"gravity": 0.015,
+	"drag": 0.005
+}

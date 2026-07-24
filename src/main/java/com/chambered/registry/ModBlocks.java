@@ -23,7 +23,8 @@ public final class ModBlocks {
 			BlockBehaviour.Properties.of()
 					.mapColor(MapColor.WOOD)
 					.strength(2.5f)
-					.sound(SoundType.WOOD),
+					.sound(SoundType.WOOD)
+					.noOcclusion(),
 			true
 	);
 

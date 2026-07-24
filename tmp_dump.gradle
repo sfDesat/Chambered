@@ -1,5 +1,0 @@
-﻿tasks.register("dumpCp") {
-  doLast {
-    configurations.compileClasspath.each { println it }
-  }
-}

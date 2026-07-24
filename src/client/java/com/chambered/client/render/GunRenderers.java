@@ -43,7 +43,6 @@ public final class GunRenderers {
 		injectRenderProvider(item, provider);
 	}
 
-	@SuppressWarnings("unchecked")
 	private static void injectRenderProvider(GunItem item, GeoRenderProvider provider) {
 		try {
 			AnimatableInstanceCache cache = item.getAnimatableInstanceCache();

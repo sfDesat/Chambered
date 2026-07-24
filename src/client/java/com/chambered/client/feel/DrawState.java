@@ -1,6 +1,4 @@
 package com.chambered.client.feel;
-
-import com.chambered.component.GunState;
 import com.chambered.data.GunDefinitions;
 import com.chambered.item.GunItem;
 import com.chambered.stats.ResolvedGunStats;

@@ -2,7 +2,7 @@
 	"display_name": "OTs-14 Groza",
 	"caliber": "chambered:545x39",
 	"accepted_magazines": [
-		"chambered:ots14_groza_magazine"
+		"chambered:ak74_magazine"
 	],
 	"ballistics": {
 		"barrel_velocity_factor": 1.15,

@@ -4,6 +4,7 @@
 	"caliber": "chambered:556x45",
 	"default_ammo_type": "chambered:556x45_fmj",
 	"compatible_guns": [
+		"chambered:m16a2",
 		"chambered:m4_carbine"
 	]
 }

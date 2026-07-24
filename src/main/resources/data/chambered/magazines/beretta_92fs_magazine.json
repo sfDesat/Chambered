@@ -1,5 +1,5 @@
 {
-	"display_name": "Beretta Magazine",
+	"display_name": "M9 Magazine",
 	"capacity": 15,
 	"caliber": "chambered:9x19",
 	"default_ammo_type": "chambered:9x19_fmj",

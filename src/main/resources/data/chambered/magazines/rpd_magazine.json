@@ -1,5 +1,5 @@
 {
-	"display_name": "RPD Drum",
+	"display_name": "RPD Ammunition Drum",
 	"capacity": 100,
 	"caliber": "chambered:762x39",
 	"default_ammo_type": "chambered:762x39_fmj",

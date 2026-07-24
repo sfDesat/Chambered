@@ -2,7 +2,7 @@
 	"display_name": "AKS-74U",
 	"caliber": "chambered:545x39",
 	"accepted_magazines": [
-		"chambered:aks74u_magazine"
+		"chambered:ak74_magazine"
 	],
 	"ballistics": {
 		"barrel_velocity_factor": 1.0,

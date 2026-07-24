@@ -1,6 +1,6 @@
 {
 	"model": {
 		"type": "minecraft:model",
-		"model": "chambered:item/gun/izh43_sawn_off/izh43_sawn_off_magazine"
+		"model": "chambered:item/magazine/izh43_sawn_off_magazine"
 	}
 }

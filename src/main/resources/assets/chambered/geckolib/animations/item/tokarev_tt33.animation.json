@@ -160,27 +160,7 @@
 		},
 		"animation.chambered.tokarev_tt33.empty": {
 			"animation_length": 0.15,
-			"bones": {
-				"gun": {
-					"rotation": {
-						"0.0": [
-							0,
-							0,
-							0
-						],
-						"0.04": [
-							1.0,
-							0.2,
-							0.2
-						],
-						"0.15": [
-							0,
-							0,
-							0
-						]
-					}
-				}
-			}
+			"bones": {}
 		},
 		"animation.chambered.tokarev_tt33.inspect": {
 			"animation_length": 1.2,

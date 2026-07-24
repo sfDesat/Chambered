@@ -1,5 +1,5 @@
 {
-	"display_name": "PKM Belt Box",
+	"display_name": "PKM Ammo Box",
 	"capacity": 100,
 	"caliber": "chambered:762x54r",
 	"default_ammo_type": "chambered:762x54r_fmj",

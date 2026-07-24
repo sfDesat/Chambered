@@ -4,6 +4,7 @@
 	"caliber": "chambered:762x39",
 	"default_ammo_type": "chambered:762x39_fmj",
 	"compatible_guns": [
-		"chambered:akm"
+		"chambered:akm",
+		"chambered:rpk"
 	]
 }

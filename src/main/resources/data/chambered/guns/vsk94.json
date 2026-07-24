@@ -2,6 +2,7 @@
 	"display_name": "VSK-94",
 	"caliber": "chambered:9x39",
 	"accepted_magazines": [
+		"chambered:vss_vintorez_magazine",
 		"chambered:vsk94_magazine"
 	],
 	"ballistics": {

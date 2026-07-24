@@ -1,5 +1,5 @@
 {
-	"display_name": "870 Tube",
+	"display_name": "870 Shell Tube",
 	"capacity": 7,
 	"caliber": "chambered:12_gauge",
 	"default_ammo_type": "chambered:12_gauge_fmj",

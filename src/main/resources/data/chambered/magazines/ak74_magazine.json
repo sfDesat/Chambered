@@ -4,6 +4,10 @@
 	"caliber": "chambered:545x39",
 	"default_ammo_type": "chambered:545x39_fmj",
 	"compatible_guns": [
-		"chambered:ak74"
+		"chambered:ak74",
+		"chambered:aks74",
+		"chambered:aks74u",
+		"chambered:ots14_groza",
+		"chambered:rpk74"
 	]
 }

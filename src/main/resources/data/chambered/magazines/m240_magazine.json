@@ -1,5 +1,5 @@
 {
-	"display_name": "M240 Belt Box",
+	"display_name": "M240 Ammo Box",
 	"capacity": 100,
 	"caliber": "chambered:762x51",
 	"default_ammo_type": "chambered:762x51_fmj",

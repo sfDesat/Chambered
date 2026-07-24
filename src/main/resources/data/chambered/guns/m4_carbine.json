@@ -2,7 +2,7 @@
 	"display_name": "M4 Carbine",
 	"caliber": "chambered:556x45",
 	"accepted_magazines": [
-		"chambered:m4_carbine_magazine"
+		"chambered:stanag_magazine"
 	],
 	"ballistics": {
 		"barrel_velocity_factor": 1.15,

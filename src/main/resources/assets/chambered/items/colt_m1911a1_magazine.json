@@ -1,6 +1,6 @@
 {
 	"model": {
 		"type": "minecraft:model",
-		"model": "chambered:item/gun/colt_m1911a1/colt_m1911a1_magazine"
+		"model": "chambered:item/magazine/colt_m1911a1_magazine"
 	}
 }

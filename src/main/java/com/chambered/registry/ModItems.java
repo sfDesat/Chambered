@@ -3,16 +3,14 @@ package com.chambered.registry;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
-import java.util.Optional;
 import java.util.function.Function;
 
 import com.chambered.ChamberedMod;
 import com.chambered.attach.AttachmentOps;
 import com.chambered.component.AmmoContents;
-import com.chambered.component.BoltState;
-import com.chambered.component.FireMode;
 import com.chambered.component.GunState;
 import com.chambered.content.GunContent;
+import com.chambered.content.MagContent;
 import com.chambered.item.AttachmentItem;
 import com.chambered.item.GunItem;
 import com.chambered.item.MagazineItem;
@@ -45,16 +43,18 @@ public final class ModItems {
 							.stacksTo(1)
 							.component(ModComponents.GUN_STATE, GunState.DEFAULT)
 			));
-			magazines.put(entry.magId(), register(
-					ModItemIds.create(entry.magId()),
+		}
+		for (MagContent.Entry entry : MagContent.ENTRIES) {
+			magazines.put(entry.id(), register(
+					ModItemIds.create(entry.id()),
 					MagazineItem::new,
 					new Item.Properties()
 							.stacksTo(1)
 							.component(
 									ModComponents.AMMO_CONTENTS,
 									new AmmoContents(
-											entry.magCapacity(),
-											entry.magCapacity(),
+											entry.capacity(),
+											entry.capacity(),
 											ChamberedMod.id(entry.caliberId()),
 											ChamberedMod.id(entry.ammoTypeId())
 									)
@@ -106,8 +106,6 @@ public final class ModItems {
 			.icon(() -> new ItemStack(MAKAROV))
 			.title(Component.translatable("itemGroup.chambered.guns"))
 			.displayItems((params, output) -> {
-				output.accept(createLoadedMakarov());
-				output.accept(createWornMakarov());
 				for (Item gun : GUNS.values()) {
 					output.accept(gun);
 				}
@@ -126,7 +124,6 @@ public final class ModItems {
 				for (Item mag : MAGAZINES.values()) {
 					output.accept(mag);
 				}
-				output.accept(createEmptyMagazine());
 			})
 			.build();
 
@@ -145,44 +142,6 @@ public final class ModItems {
 			.build();
 
 	private ModItems() {
-	}
-
-	/**
-	 * Ready-to-fire Makarov: mag seated, round chambered, slide forward.
-	 */
-	public static ItemStack createLoadedMakarov() {
-		ItemStack stack = new ItemStack(MAKAROV);
-		AmmoContents mag = new AmmoContents(7, 8, ChamberedMod.id("9x18"), ChamberedMod.id("9x18_fmj"));
-		stack.set(
-				ModComponents.GUN_STATE,
-				new GunState(
-						Optional.of(ChamberedMod.id("9x18_fmj")),
-						BoltState.FORWARD,
-						FireMode.SEMI,
-						Optional.of(mag),
-						Optional.of(ChamberedMod.id("makarov_magazine")),
-						Map.of(),
-						100.0f
-				)
-		);
-		return stack;
-	}
-
-	public static ItemStack createEmptyMagazine() {
-		ItemStack stack = new ItemStack(MAKAROV_MAGAZINE);
-		stack.set(
-				ModComponents.AMMO_CONTENTS,
-				new AmmoContents(0, 8, ChamberedMod.id("9x18"), ChamberedMod.id("9x18_fmj"))
-		);
-		return stack;
-	}
-
-	/** Loaded Makarov at low condition — for workbench repair testing. */
-	public static ItemStack createWornMakarov() {
-		ItemStack stack = createLoadedMakarov();
-		GunState state = stack.getOrDefault(ModComponents.GUN_STATE, GunState.DEFAULT);
-		stack.set(ModComponents.GUN_STATE, state.withCondition(35.0f));
-		return stack;
 	}
 
 	private static Item register(ResourceKey<Item> itemKey, Function<Item.Properties, Item> factory, Item.Properties properties) {

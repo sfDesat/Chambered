@@ -1,6 +1,6 @@
 {
 	"model": {
 		"type": "minecraft:model",
-		"model": "chambered:item/gun/steyr_aug/steyr_aug_magazine"
+		"model": "chambered:item/magazine/steyr_aug_magazine"
 	}
 }

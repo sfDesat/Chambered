@@ -1,5 +1,5 @@
 {
-	"display_name": "Mosin Clip",
+	"display_name": "Mosin Stripper Clip",
 	"capacity": 5,
 	"caliber": "chambered:762x54r",
 	"default_ammo_type": "chambered:762x54r_fmj",

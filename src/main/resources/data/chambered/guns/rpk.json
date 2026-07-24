@@ -2,6 +2,7 @@
 	"display_name": "RPK",
 	"caliber": "chambered:762x39",
 	"accepted_magazines": [
+		"chambered:akm_magazine",
 		"chambered:rpk_magazine"
 	],
 	"ballistics": {

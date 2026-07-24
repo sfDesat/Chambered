@@ -2,7 +2,7 @@
 	"display_name": "Colt M16A2",
 	"caliber": "chambered:556x45",
 	"accepted_magazines": [
-		"chambered:m16a2_magazine"
+		"chambered:stanag_magazine"
 	],
 	"ballistics": {
 		"barrel_velocity_factor": 1.15,

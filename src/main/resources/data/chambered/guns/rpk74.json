@@ -2,6 +2,7 @@
 	"display_name": "RPK-74",
 	"caliber": "chambered:545x39",
 	"accepted_magazines": [
+		"chambered:ak74_magazine",
 		"chambered:rpk74_magazine"
 	],
 	"ballistics": {

@@ -1,6 +1,6 @@
 {
 	"display_name": "TMP Magazine",
-	"capacity": 30,
+	"capacity": 25,
 	"caliber": "chambered:9x19",
 	"default_ammo_type": "chambered:9x19_fmj",
 	"compatible_guns": [

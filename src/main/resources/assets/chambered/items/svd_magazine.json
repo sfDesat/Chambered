@@ -1,6 +1,6 @@
 {
 	"model": {
 		"type": "minecraft:model",
-		"model": "chambered:item/gun/svd/svd_magazine"
+		"model": "chambered:item/magazine/svd_magazine"
 	}
 }

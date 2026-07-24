@@ -3,6 +3,7 @@ package com.chambered.item;
 import java.util.function.Consumer;
 
 import com.chambered.component.AmmoContents;
+import com.chambered.data.MagCompatibility;
 import com.chambered.registry.ModComponents;
 
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -74,5 +75,6 @@ public class MagazineItem extends Item {
 			consumer.accept(Component.literal("Caliber: " + contents.caliber()));
 			consumer.accept(Component.literal("Ammo: " + contents.ammoType()));
 		}
+		MagCompatibility.appendFitsGuns(getDefinitionId(), consumer);
 	}
 }

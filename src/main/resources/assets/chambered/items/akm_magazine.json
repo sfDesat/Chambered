@@ -1,6 +1,6 @@
 {
 	"model": {
 		"type": "minecraft:model",
-		"model": "chambered:item/gun/akm/akm_magazine"
+		"model": "chambered:item/magazine/akm_magazine"
 	}
 }

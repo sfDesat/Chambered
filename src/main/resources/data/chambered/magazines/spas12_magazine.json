@@ -1,5 +1,5 @@
 {
-	"display_name": "SPAS-12 Tube / Mag",
+	"display_name": "SPAS-12 Shell Tube",
 	"capacity": 8,
 	"caliber": "chambered:12_gauge",
 	"default_ammo_type": "chambered:12_gauge_fmj",

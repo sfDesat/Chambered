@@ -1,5 +1,5 @@
 {
-	"display_name": "M1911 Magazine",
+	"display_name": "1911 Magazine",
 	"capacity": 7,
 	"caliber": "chambered:45_acp",
 	"default_ammo_type": "chambered:45_acp_fmj",

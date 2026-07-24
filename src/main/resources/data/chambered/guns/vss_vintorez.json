@@ -2,7 +2,8 @@
 	"display_name": "VSS Vintorez",
 	"caliber": "chambered:9x39",
 	"accepted_magazines": [
-		"chambered:vss_vintorez_magazine"
+		"chambered:vss_vintorez_magazine",
+		"chambered:vsk94_magazine"
 	],
 	"ballistics": {
 		"barrel_velocity_factor": 0.75,

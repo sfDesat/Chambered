@@ -6,6 +6,7 @@ import java.util.function.Consumer;
 import com.chambered.anim.GunAnimations;
 import com.chambered.component.AmmoContents;
 import com.chambered.component.GunState;
+import com.chambered.data.MagCompatibility;
 import com.chambered.registry.ModComponents;
 
 import com.geckolib.animatable.GeoItem;
@@ -116,5 +117,6 @@ public class GunItem extends Item implements GeoItem {
 		} else {
 			consumer.accept(Component.literal("Mag: none"));
 		}
+		MagCompatibility.appendAcceptedMags(getDefinitionId(), consumer);
 	}
 }

@@ -142,20 +142,7 @@
 		},
 		"animation.chambered.makarov.empty": {
 			"animation_length": 0.15,
-			"bones": {
-				"gun": {
-					"rotation": {
-						"0.0": [0, 0, 0],
-						"0.04": [1.2, 0.2, 0.3],
-						"0.15": [0, 0, 0]
-					},
-					"position": {
-						"0.0": [0, 0, 0],
-						"0.04": [0, 0, 0.08],
-						"0.15": [0, 0, 0]
-					}
-				}
-			}
+			"bones": {}
 		},
 		"animation.chambered.makarov.inspect": {
 			"animation_length": 1.5,
